@@ -295,6 +295,8 @@ void main() {
     IO.println(String.format(cost.getFullManaCost()));
     cost = new Cost("grUBw"); // WUBRG
     IO.println(String.format(cost.getFullManaCost()));
+    cost = new Cost("bubr"); // UBBR
+    IO.println(String.format(cost.getFullManaCost()));
     try{
         cost = new Cost("ipwyi"); // ошибка
     } catch(IllegalArgumentException e) {
